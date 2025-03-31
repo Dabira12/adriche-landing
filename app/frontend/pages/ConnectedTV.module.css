@@ -1,0 +1,143 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+}
+
+.authButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.loginBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.demoBtn {
+  background: #8257E6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.contactBtn {
+  background: none;
+  border: 1px solid #8257E6;
+  color: #8257E6;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  align-items: center;
+}
+
+.heroContent {
+  padding-right: 2rem;
+}
+
+.heroContent h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.purple {
+  color: #8257E6;
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.heroVisual {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tvImage {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  margin-left: -2rem;
+}
+
+.statsCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 10%;
+  right: 0;
+  z-index: 2;
+}
+
+.partnerLogos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.partnerLogos img {
+  height: 2rem;
+  object-fit: contain;
+}
+
+.productImage {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.circleProgress {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: conic-gradient(#8257E6 84%, #E6E6E6 84%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-weight: bold;
+} 
